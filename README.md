@@ -9,7 +9,7 @@
 
 …
 
- `script/project` 使用C实现了生成旋转因子的代码。
+`script/project` 使用C实现了生成旋转因子的代码。
 
 目前实现了可通用的Butterfly和四点的FFT/IFFT，代码也配有非常完整的注释，方便理解。
 
