@@ -97,8 +97,6 @@ module Butterfly #(
             rod_imag_0 <= in2_real * ro_imag;
             rod_imag_1 <= in2_imag * ro_real;
             // 保存in1的值,并对其进行移位扩展
-            // in1_real_d <= {{4{in1_real[DATA_WIDTH-1]}}, in1_real[DATA_WIDTH-2:0], {EXPAND{1'b0}}};
-            // in1_imag_d <= {{4{in1_real[DATA_WIDTH-1]}}, in1_real[DATA_WIDTH-2:0], {EXPAND{1'b0}}};
             in1_real_d <= in1_real <<< EXPAND;
             in1_imag_d <= in1_imag <<< EXPAND;
         end
