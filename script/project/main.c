@@ -35,7 +35,6 @@ int main() {
     for (int i = 0; i < POINTS; i++) {
         printf("%d,",ro_array[i]);
     }
-
-
+	
     return 0;
 }

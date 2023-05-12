@@ -7,8 +7,6 @@
 
 ---
 
-…
-
 `script/project` 使用C实现了生成旋转因子的代码。
 
 目前实现了可通用的Butterfly和四点的FFT/IFFT，代码也配有非常完整的注释，方便理解。
@@ -18,6 +16,16 @@
 。
 
 本工程使用iverlog和modelsim通过了仿真，
+
+---
+
+### 蝶形运算
+
+蝶形运算模块将运算分成了三级，过程如下
+
+![Butterfly](./image/Butterfly.jpg)
+
+…
 
 ---
 
@@ -48,4 +56,3 @@ gtkwave wave_ifft4_tb.vcd
 ```
 
 …
-
