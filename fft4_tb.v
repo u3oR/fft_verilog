@@ -73,7 +73,7 @@ module fft4_tb;
     end
 
     initial begin
-        $dumpfile("wave_fft4_tb.vcd"); // 指定用作dumpfile的文件
+        $dumpfile("top_fft4_tb.vcd"); // 指定用作dumpfile的文件
         $dumpvars; // dump all vars
     end
 
