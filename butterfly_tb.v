@@ -72,7 +72,7 @@ module butterfly_tb;
 	end
   
 	initial begin
-		$dumpfile("top_butterfly_tb.vcd"); // 指定用作dumpfile的文件
+		$dumpfile("build/top_butterfly_tb.vcd"); // 指定用作dumpfile的文件
 		$dumpvars; // dump all vars
 	end
 

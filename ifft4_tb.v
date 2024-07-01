@@ -74,7 +74,7 @@ module ifft4_tb;
     end
 
     initial begin
-        $dumpfile("top_ifft4_tb.vcd"); // 指定用作dumpfile的文件
+        $dumpfile("build/top_ifft4_tb.vcd"); // 指定用作dumpfile的文件
         $dumpvars; // dump all vars
     end
 
