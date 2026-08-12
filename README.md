@@ -1,3 +1,5 @@
+
+
 # fft_verilog
 使用verilog实现FFT
 
@@ -15,7 +17,7 @@
 
 。
 
-本工程使用iverlog和modelsim通过了仿真，
+本工程使用**iverilog**和modelsim通过了仿真，
 
 ---
 
@@ -27,7 +29,7 @@
 
 ---
 
-​	**推荐**：如果你只是想检查Verilog文件的语法是否有错误，然后进行一些基本的时序仿真，iverilog 是一个不错的选择。相比于各大FPGA厂商的IDE几个G的大小，iverilog 极其小巧，并且支持全平台：Windows + Linux + MacOS 。
+	**推荐**：如果你只是想检查Verilog文件的语法是否有错误，然后进行一些基本的时序仿真，iverilog 是一个不错的选择。相比于各大FPGA厂商的IDE几个G的大小，iverilog 极其小巧，并且支持全平台：Windows + Linux + MacOS 。
 
 iverilog软件的下载在这里👉：https://bleyer.org/icarus/ > Download
 
@@ -95,6 +97,8 @@ make view
 ```
 
 将会依次打开`butterfly_tb` `fft4_tb` `ifft4_tb` 
+
+
 
 
 
